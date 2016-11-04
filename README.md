@@ -40,6 +40,8 @@
 
 **演讲者：丁保增**
 
+[演讲视频观看](http://www.infoq.com/cn/presentations/achieve-a-null-pointer-to-dereference-detection-mechanism-in-cling)
+
 中科院软件所博士在读，研究方向：系统安全，虚拟化安全。在GSoC2013项目中，实现了在Cling中动态地检测空指针解引用错误。
 
 简 介：Cling是欧洲核子研究中心(CERN)开发的C++交互式编译器。在报告中将介绍：C++交互式编译器Cling的应用场景，实现以及如何在Cling中实现动态地检测空指针解引用错误。
@@ -47,6 +49,8 @@
 ### Build An Optimized C Runtime for Embedded Linux
 
 **演讲者：黃敬群**
+
+[演讲视频观看](http://www.infoq.com/cn/presentations/build-an-optimized-c-language-runtime-for-embedded-linux)
 
 慣用網路暱稱是 “jserv”，長期投入開源軟件開發工作，並致力於軟硬件系統整合，同時擔任台灣聯發科技和工業技術研究院等單位的顧問，協助銜接開放系統的豐富資源和活躍的社區。近期除了投入於醫療電子產業之外，也在台灣的大學院校授課，與學生一同探討嵌入式系統和操作系統一類的議題。
 
@@ -58,6 +62,8 @@ http://about.me/jserv
 
 **演讲者：程斌**
 
+[演讲视频观看](http://www.infoq.com/cn/presentations/optimization-of-variables-of-the-induction-in-gcc)
+
 ARM工程师，开源工具链爱好者, GCC、Newlib开发者，目前在ARM从事GNU工具链开发方面的工作。
 
 简 介：归纳变量是循环优化中非常重要的因素。不同的IV选取方法往往导致生成代码的大小和性能有很大的差距。ARM工程师程斌在GCC的IV Optimization上做了很多的调优和修复，并在目标机上取得了明显的性能提升。他将会介绍IVO的概况和他遇到的一些有趣的问题。
@@ -65,6 +71,8 @@ ARM工程师，开源工具链爱好者, GCC、Newlib开发者，目前在ARM从
 ### Port GCC to a new architecture – Case study: nds32
 
 **演讲者：Chung-Ju Wu**
+
+[演讲视频观看](http://www.infoq.com/cn/presentations/user-stories-of-gcc-framework-transplant-nds32)
 
 Chung-Ju Wu is a compiler engineer at Andes Technology Corporation. He is currently working with other engineers on developing a complete toolchain/compiler for supporting Andes nds32 architecture.
 He received M.S. degree in Computer Science from National Tsing-Hua University,
@@ -77,6 +85,8 @@ In this session, an architecture — nds32 — is taken as case study, we will g
 
 **演讲者：Luba Tang**
 
+[演讲视频观看](http://www.infoq.com/cn/presentations/system-linkers-theory-history-and-future)
+
 Taiwan Evolution Software Technology, Founder. Luba Tang received his M.S. degree in computer science from the National Tsing-Hua University, Taiwan. He has been a Ph.D. student in computer science department of National Tsing-Hua University, Taiwan since 2007. At the same time, he has been working in the compiler groups at Marvell, Inc. and MediaTek, Inc. since 2010. His research interests include both electronic system level (ESL) design and compilers. He had focused on iterative compiler, ahead-of-time compiler, and link-time optimization. His most recent work focus is on cloud compilation. He was the chief programmer of Starfish DSP simulator, the original author of Marvell iterative compiler, and also the software architect of MCLinker. His most recent position is the founder of Taiwan Evolution Software Technology Inc..
 
 简 介：The tedious and tough details of linking process limit the development of system linkers for more than 30 years. Most works stopped at providing portable infrastructures; Some works ever focused on optimizing linker, but all of them become limited binary rewriter, not real and practical linkers; Only few works ever addressed on modeling linking process.
@@ -87,6 +97,8 @@ Finally, I will introduce a new open source project – bold. The goal of the bo
 ### The implementation of AArch64 Neon™ in LLVM
 
 **演讲者：刘江宁**
+
+[演讲视频观看](http://www.infoq.com/cn/presentations/the-realization-aarch64-neon-in-llvm)
 
 现任ARM首席软件工程师(Principal software engineer)， 长期从事编译器软件的设计和开发工作。从2000年至2010年任职于英特尔，期间曾在英特尔编译器实验室参与和领导开发多个编译器项目，其中包括UEFI中间代码编译器，英特尔编译器x86-64后端实现，以及动态二进制代码翻译性能优化等等。自2011年起任职ARM软件工具链部门，参与和领带开源软件的开发工作，其中包括针对ARM Cortex-M系列CPU的GCC编译器的性能优化，以及LLVM/Clang编译器针对ARM v7/v8 CPU的实现。
 简 介：开发一个LLVM的新后端时，刚开始的时候是往往是比较简单直接的。但是越往后越就会发现要做好一个LLVM后端有很多要考虑的问题。ARM工程师刘江宁在LLVM后段开发时遇到一些问题。他将描述这些问题并分享解决这些问题的经验。
